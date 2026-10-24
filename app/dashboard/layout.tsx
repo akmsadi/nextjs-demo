@@ -9,7 +9,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             </aside>
             <div className='flex min-h-0 grow flex-col overflow-y-auto'>
                 <Header />
-                <main className='p-4'>
+                <main className='flex h-full p-4'>
                     <div className='w-full'>{children}</div>
                 </main>
             </div>
